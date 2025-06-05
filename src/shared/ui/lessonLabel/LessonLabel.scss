@@ -1,0 +1,7 @@
+.lesson_link {
+  &:hover {
+    transition: 0.2s;
+    transform: scale(1.01);
+    color: var(--white-color);
+  }
+}

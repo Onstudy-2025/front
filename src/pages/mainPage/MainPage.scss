@@ -1,0 +1,13 @@
+.main{
+  &_gradient1 {
+    position: fixed;
+    right: -460px;
+    top: 10%;
+  }
+
+  &_gradient2 {
+    position: fixed;
+    left: -460px;
+    top: -36%;
+  }
+}

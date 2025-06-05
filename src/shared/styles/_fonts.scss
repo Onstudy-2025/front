@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Pobeda';
+  src: url('../fonts/pobeda-bold.ttf');
+  src: url('../fonts/pobeda-bold.ttf') format('embedded-opentype'),
+  url('../fonts/pobeda-bold.ttf') format('woff2'),
+  url('../fonts/pobeda-bold.ttf') format('woff'),
+  url('../fonts/pobeda-bold.ttf') format('truetype'),
+  url('../fonts/pobeda-bold.ttf') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

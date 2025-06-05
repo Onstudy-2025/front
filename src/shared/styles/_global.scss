@@ -1,0 +1,75 @@
+@use "lib";
+@use "reset";
+@use "fonts";
+
+:root {
+  --main-color-gradient:  linear-gradient(108.96deg, #866AC8 23.21%, rgba(66, 52, 98, 0) 68.36%);
+  --bg-color: #0E0E0E;
+  --white-color: #fff;
+  --border-radius: 23px;
+  --border-r-small: 10px;
+  --main-color: #A47EFF;
+  --purple200: #5D4891;
+}
+
+body {
+  background-color: var(--bg-color);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 30px 10px 130px;
+}
+
+h2 {
+  font-family: Pobeda, sans-serif;
+}
+
+.title {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  color: var(--white-color);
+}
+
+.flex {
+  display: flex;
+}
+
+.df-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-sb {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-32{
+  gap: 32px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.mb-24{
+  margin-bottom: 24px;
+}
