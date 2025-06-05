@@ -3,7 +3,6 @@ import type {FC} from "react";
 import {Button, GradientCircle} from "shared/ui";
 import {LockItem, PlayItem} from "shared/icons";
 import type {ITopic} from "shared/interfaces";
-import {IBTNVariant} from "shared/interfaces";
 
 import './TopicItem.scss';
 
@@ -33,7 +32,7 @@ export const TopicItem: FC<ComponentProps> = ({topic}) => {
                 <GradientCircle className='topic_gradient'/>
                 <img src={topic.image} alt='image' className='topic_image'/>
             </div>
-            <Button icon={<PlayItem/>} className='topic_btn' variant={IBTNVariant.circle}>Смотреть</Button>
+            <Button icon={<PlayItem/>} className='topic_btn' variant='circle'>Смотреть</Button>
         </div>
     )
 };

@@ -7,7 +7,6 @@ import {LessonItem} from "entities/lesson";
 
 import './AllLessons.scss';
 import {Button} from "shared/ui";
-import {IBTNVariant} from "shared/interfaces";
 
 export const AllLessons = () => {
     return (
@@ -24,9 +23,9 @@ export const AllLessons = () => {
                 ))}
             </div>
             <div className='flex df-column gap-20 align-center lessons_btn'>
-                <Button icon={<PlayItem/>} variant={IBTNVariant.primary}>Смотреть</Button>
-                <Button variant={IBTNVariant.secondary}>Конспект</Button>
-                <Button variant={IBTNVariant.secondary}>Пройти тест</Button>
+                <Button icon={<PlayItem/>} variant='primary'>Смотреть</Button>
+                <Button variant='secondary'>Конспект</Button>
+                <Button variant='secondary'>Пройти тест</Button>
             </div>
         </div>
     );

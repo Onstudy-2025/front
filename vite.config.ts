@@ -7,7 +7,7 @@ import path from 'path';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths(), svgr({
-    include: '**/*.svg?react',
+    include: '**/*.svg',
   }),],
   resolve: {
     alias: {

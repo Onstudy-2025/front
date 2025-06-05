@@ -1,11 +1,10 @@
 import type {FC, ReactNode} from "react";
-import {IBTNVariant} from "shared/interfaces";
 
 import './Button.scss';
 
 interface ComponentProps {
     type?: 'button' | 'submit' | 'reset';
-    variant?: IBTNVariant;
+    variant?: 'primary' | 'secondary' | 'circle';
     children?: ReactNode;
     icon?: ReactNode;
     onClick?: () => void;

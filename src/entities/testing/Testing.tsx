@@ -18,7 +18,7 @@ const Quiz = () => {
     const [score, setScore] = useState(0);
     const [showResult, setShowResult] = useState(false);
 
-    const handleAnswerClick = (index) => {
+    const handleAnswerClick = (index: number) => {
         const isCorrect = index === questions[currentQuestion].correctIndex;
         if (isCorrect) setScore((prev) => prev + 1);
 

@@ -1,5 +1,6 @@
-import {Collapse, CollapseProps} from "antd";
+import {Collapse} from "antd";
 import type {CSSProperties} from "react";
+import type {CollapseProps} from "antd"
 import {allModules} from "shared/data.ts";
 import {ModuleItem} from "entities/module";
 import {ArrowSVG} from "shared/icons";
@@ -26,7 +27,7 @@ export const AllModules = () => {
             bordered={false}
             defaultActiveKey={['1']}
             expandIconPosition='end'
-            expandIcon={({ isActive }) => <ArrowSVG rotate={isActive ? 90 : 0} />}
+            expandIcon={() => <ArrowSVG />}
             items={getItems(panelStyle)}
         />
     );

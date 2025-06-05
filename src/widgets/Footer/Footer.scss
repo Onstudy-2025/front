@@ -57,11 +57,11 @@
 
   &-highlight {
     position: absolute !important;
-    bottom: -170px;
+    bottom: -320px;
     transition: left 0.3s ease;
     z-index: 1;
 
-    & > img {
+    & > svg {
       width: 400px;
     }
 
