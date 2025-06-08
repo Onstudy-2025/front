@@ -1,9 +1,9 @@
 import {AllModules} from "entities/module";
 import {Button} from "shared/ui";
 
-import './ListOfTopics.scss';
+import './ModulesPage.scss';
 
-export const ListOfTopics = () => {
+export const ModulesPage = () => {
     return (
         <div>
             <h2 className='title mb-24'>Выберите модуль</h2>

@@ -1,19 +1,11 @@
 .lessons {
   position: relative;
 
-  &_header {
-    & > h3 {
-      font-family: Inter, sans-serif;
-      font-weight: 600;
-      font-size: 24px;
-      color: var(--white-color);
-    }
-  }
-
-  &_back {
-    position: absolute;
-    left: 0;
-    transform: rotate(90deg);
+  &_title {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--white-color);
   }
 
   &_btn {

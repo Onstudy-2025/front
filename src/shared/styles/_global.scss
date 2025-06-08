@@ -10,6 +10,11 @@
   --border-r-small: 10px;
   --main-color: #A47EFF;
   --purple200: #5D4891;
+  --purple-light: #907BC7;
+  --btn-gradient: linear-gradient(90deg, #7a2ff7, #8636df);
+  --main-border-color: #714FC3;
+
+  --purple700: #1A1722;
 }
 
 body {
@@ -42,7 +47,7 @@ h2 {
   display: flex;
 }
 
-.df-column {
+.fd-column {
   flex-direction: column;
 }
 

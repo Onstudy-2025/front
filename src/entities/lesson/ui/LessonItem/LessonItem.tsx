@@ -11,7 +11,7 @@ interface ComponentProps {
 export const LessonItem: FC<ComponentProps> = ({lesson}) => {
     return (
         <div className='lesson'>
-            <div className='flex df-column gap-20 align-center'>
+            <div className='flex fd-column gap-20 align-center'>
                 <Link to={lesson.videoLink}>
                     <img className='lesson_image' src={lesson.videoCover} alt='image' />
                 </Link>

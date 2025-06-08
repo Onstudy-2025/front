@@ -1,11 +1,19 @@
-import Quiz from "entities/testing/Testing.tsx";
+import {allQuestions, testResult} from "shared/data.ts";
+import {useState} from "react";
+import {TestProgress, TestResult} from "entities/testing";
 
 export const TestPage = () => {
+    const [finishedTest, setFinishedTest] = useState<boolean>(true)
+
+    const onFinish = (data: any) => {
+        console.log(data)
+        setFinishedTest(true)
+    }
+
     return (
-        <div>
-            TestPage
-            <Quiz/>
-        </div>
+        <>
+            {finishedTest ? <TestResult result={testResult}/> :  <TestProgress questions={allQuestions} onFinish={onFinish}/>}
+        </>
     );
 };
 

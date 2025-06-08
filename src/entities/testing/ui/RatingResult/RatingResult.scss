@@ -1,0 +1,66 @@
+.rating {
+  &_rate {
+    gap: 5px;
+    width: max-content;
+    border-radius: 8px;
+    background: #291B5C;
+    padding: 9px 13px;
+    margin: 55px auto 10px;
+
+    & > p {
+      font-family: Inter, sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19.48px;
+      color: #7C64D5;
+      white-space: pre-line;
+    }
+  }
+
+  &_desc {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: var(--white-color);
+  }
+
+  &_grade_desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    margin: 20px 0 27px;
+    color: var(--purple-light);
+  }
+
+  &_title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--white-color);
+    text-align: center;
+  }
+
+  &_rec {
+    margin: 15px 0 40px 10px;
+  }
+
+  & li {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: var(--purple-light);
+  }
+
+  &_btns {
+    & > button {
+      height: 73px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .no_desc {
+    margin-top: 33px;
+  }
+}

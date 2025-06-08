@@ -1,0 +1,11 @@
+.back {
+  &_header {
+    position: relative;
+  }
+
+  &_svg {
+    position: absolute;
+    left: 0;
+    transform: rotate(90deg);
+  }
+}

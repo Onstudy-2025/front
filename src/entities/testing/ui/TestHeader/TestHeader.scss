@@ -1,0 +1,29 @@
+.progress {
+  &_track {
+    position: relative;
+    flex: 1 1 auto;
+    height: 12px;
+    background: #211A3A;
+    border-radius: 9999px;
+    overflow: hidden;
+  }
+
+  &_fill {
+    height: 100%;
+    background: #FFF0D6;
+    border-radius: inherit;
+    transition: width 0.4s ease;
+  }
+
+  &_currentInfoBlock {
+    gap: 6px;
+    background: var(--btn-gradient);
+    padding: 10px 14px;
+    width: max-content;
+    border-radius: 6px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: var(--white-color);
+  }
+}

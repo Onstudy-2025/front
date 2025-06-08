@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { Layout } from "widgets/Layout";
-import {AboutPage, ListOfTopics, MainPage, CurrentLesson, TestPage} from "pages";
+import {AboutPage, ModulesPage, MainPage, CurrentLesson, TestPage} from "pages";
 
 export const router = createBrowserRouter([
     {
@@ -13,7 +13,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: 'lessons',
-                element: <ListOfTopics/>,
+                element: <ModulesPage/>,
             },
             {
                 path: 'lessons/:module/:id',
@@ -24,7 +24,7 @@ export const router = createBrowserRouter([
                 element: <AboutPage/>,
             },
             {
-                path: 'test',
+                path: 'lessons/:module/:id/test',
                 element: <TestPage/>,
             },
         ],

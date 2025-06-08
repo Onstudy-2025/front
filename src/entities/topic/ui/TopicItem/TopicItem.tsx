@@ -13,7 +13,7 @@ interface ComponentProps {
 export const TopicItem: FC<ComponentProps> = ({topic}) => {
     if (!topic.isFinished) {
         return (
-            <div className='topic_process flex df-column justify-center align-center'>
+            <div className='topic_process flex fd-column justify-center align-center'>
                 <div className='flex justify-center align-center'>
                     <LockItem/>
                 </div>
@@ -23,7 +23,7 @@ export const TopicItem: FC<ComponentProps> = ({topic}) => {
     }
 
     return (
-        <div className={`${topic.isFinished ? 'topic_item flex df-column justify-sb' : 'topic_process'}`}>
+        <div className={`${topic.isFinished ? 'topic_item flex fd-column justify-sb' : 'topic_process'}`}>
             <div>
                 <div className='topic_text'>
                     <h2 className='topic_title'>Курс</h2>
